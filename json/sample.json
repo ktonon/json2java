@@ -1,0 +1,20 @@
+{
+    "classname": "Sample",
+    "methods": [
+        {
+            "name": "foo",
+            "rtype": "void",
+            "params": [
+                {
+                    "name": "arg1",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "name": "bar",
+            "rtype": "int",
+            "params": []
+        }
+    ]
+}
