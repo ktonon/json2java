@@ -2,8 +2,7 @@ public class <%= @java_class.name %> {
     
 <% @java_class.methods.each do |m| %>
     <%= m.signature %> {
-    // keep: <%= m.name %> {
-    // keep: }
+    // keep: <%= m.name %> 
     }
     
 <% end %>
